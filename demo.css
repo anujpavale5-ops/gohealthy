@@ -1,0 +1,28 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-color: brown;
+}
+
+.headline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+.nav-left{
+    display: flex;
+    gap : 12px;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+a{
+text-decoration: none;
+}
